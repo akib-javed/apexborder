@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+.title{
+    color: black;
+    text-align: center;
+    position: relative;
+}
+.wedding{
+    background-color: white;
+    padding: 15px;
+}
+.bordor{
+    border: 3px solid white;
+    height: 500px;
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 89%;
+    top: 25px;
+    right: 6.5%;
+    background-color: transparent;
+    border: 1px solid black;
+    z-index: -1;
+    border-bottom: 0px;
+}
+.bordor::after{
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 89%;
+    bottom: 25px;
+    right: 6.5%;
+    background-color: transparent;
+    border: 1px solid black;
+    z-index: -1;
+    border-top: 0px;
+}
+.imgsize{
+    height: 300px;
+    width: 300px;  
+}
+.center{
+    text-align: right;
+
+}
+.parent .menubar a:hover{
+    background-color: white;
+}
+
